@@ -10,6 +10,6 @@ public class DB {
     public static final String dbName = "library";  //database name
     public static final String dbUrl ="jdbc:mysql://localhost:3306/"+dbName;
     public static final String dbUsername ="root"; //db username
-    public static final String dbPw = "tomshy308"; //db password
+    public static final String dbPw = "*********"; //db password
   
 }
