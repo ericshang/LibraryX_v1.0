@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	ext-rendering: optimizeLegibility;
+	margin:0;
+	padding:0;
+	font-family:"Times New Roman", Times, serif;
+	font-size:14px;
+	background-color:#FFFFFF;
+	-webkit-font-smoothing: antialiased;
+	position:relative;
+}
+
+img{
+	border:0;
+}
+p{
+	margin:0;
+	text-align:justify;
+	line-height:1.6em;
+}
+a{
+	color: #0066FF;
+	text-decoration:none;
+}
+a:hover{
+	cursor:pointer;
+}
+.clear{
+	height:1px;
+	clear:both;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0;
+	padding:0.5em;
+}
+
+.mainBox{
+	margin:0 auto;
+	padding:0;
+	width:80%;
+	min-height:500px;
+	position:relative;
+}
+.Nav{
+	margin:0 auto;
+	padding:0;
+	width:80%;
+	position:relative;
+}
+.headBox{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+	text-align:center;
+	position:relative;
+}
+.headNavUl{
+	margin:0;
+	padding:5px 0;
+}
+.headNavUl li{
+	margin:0;
+	padding:0.2em;
+	display:inline-block;
+	list-style:none;
+	border:1px solid #f0f0f0;
+	border-radius:4px;
+	background-color:#f0f0f0;
+}
+.headNavUl li:hover{
+	background-color:#FFFFFF;
+}
+.headTopBox{
+	position: relative;
+	margin:0;
+	padding:2px 10px;
+	text-align:right;
+}
+.headTopBoxLeft{
+	position: relative;
+		/*CSS3*/
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	float:left;
+	width:50%;
+	border:0;
+}
+
+.headTopBoxRight{
+	text-align:right;
+	position: relative;
+	margin:0;
+	padding:2px 5px;
+		/*CSS3*/
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+	float:left;
+	width:50%;
+	border:0;
+}
+.headSearch{
+	margin:0;
+	padding:2px 5px;
+	text-align:left;
+	background-color:#f0f0f0;
+}
+.headSearch input,select{
+	margin:1px;
+	padding:3px 5px;
+}
+.loginContainer{
+	padding:20px;
+	width:200px;
+	margin:0 auto;
+	text-align:center;
+}
+
+.loginContainer input{
+	margin:1px;
+	padding:3px 5px;
+}
+
+.bookListContainer{
+}
+.bookContainer{
+	line-height:1.2em;
+	border:1px solid #f0f0f0;
+	border-radius:6px;
+	margin:5px 0;
+	padding:5px 20px;
+}
+.bookContainer:hover{
+	border:1px solid #CCCCCC;
+}
+.bookContainerOps{
+	text-align:right;
+	margin:10xpx;
+}
+.bookContainerPInto{
+	font-size:16px;
+}
+
+.footerBox{
+	margin:0 auto;
+	padding:0;
+	width:100%;
+	text-align:center;
+}
+.footer{
+	margin:10px;
+	padding:10px;
+	text-align:center;
+}
